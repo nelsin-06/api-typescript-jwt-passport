@@ -1,9 +1,9 @@
 import { model, Schema, Document } from 'mongoose';
 import bcrypt from 'bcrypt';
-import { boolean } from 'webidl-conversions';
 export interface UIuser extends Document {
-    email: string,
-    password: string,
+    email: string
+    password: string
+    comparePassword: () => Promise<boolean>
 }
 
 const userSchema = new Schema({
