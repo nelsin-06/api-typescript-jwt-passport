@@ -1,7 +1,7 @@
 # api-typescript-jwt-passport
 
 
-# Api con sistemas de registro, login y implementación de sistemas de restricción de rutas especiales para personas no logueadas.
+Api con sistemas de registro, login y implementación de sistemas de restricción de rutas especiales para personas no logueadas.
 
 
 ## Contruido con:
